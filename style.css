@@ -1,0 +1,316 @@
+  /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar .logo h1 {
+    color: white;
+    margin: 0;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .sign-in {
+    background-color: #f4b400;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background:linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(section.jpeg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content button {
+    padding: 0.5rem 1rem;
+    background-color: #f4b400;
+    border: none;
+    cursor: pointer;
+}
+
+/* About Section */
+.about {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.about h2 {
+    color: blue;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+.about img {
+    justify-content: flex-end;
+    float: right;
+    width: 500px;
+    height: 450px;
+}
+
+.about p {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+
+/* Container for the cards */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /* Space between cards */
+    margin: 0 auto;
+    max-width: 1200px;
+    /* Maximum width of the container */
+    padding: 1rem;
+    margin-top: 40px;
+}
+
+/* Individual card styling */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    /* Take full width within the container */
+    max-width: 300px;
+    /* Maximum width of each card */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Card image styling */
+.card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+/* Education Section */
+/* .education {
+    height: 100vh;
+    background: url('gallery6.jpeg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.education-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: blue;
+}
+
+.education-content button {
+    padding: 0.5rem 1rem;
+    background-color: #f4b400;
+    border: none;
+    cursor: pointer;
+} */
+.content{
+    background: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),
+    url(sofi.PNG) no-repeat center center/cover;
+    margin-top: 100px;
+}
+.content h1 {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.content h3 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #f4b400;
+    font-size: 1.80rem;
+    color: #ddd;
+}
+
+.content ul li {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #f4b400;
+}
+.content p{
+    color: #ccc;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.images img {
+    width: 30%;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.pic {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px solid;
+    margin-top: 80px;
+}
+.paragraph{
+    background:linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url(ground.PNG) no-repeat center center/cover;
+    /* width: 500px; */
+    height: 600px;
+}
+.paragraph h3 {
+    text-align: center;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 40px;
+    color: #f4f4f4;
+   
+}
+
+.paragraph ul li {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(226, 211, 6);
+}
+.paragraph p{
+color: white;
+}
+
+.eve-foundation h3 {
+    text-align: center;
+    color: rgb(91, 148, 5);
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.eve-foundation img {
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.eve-foundation h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    margin-top: 80px;
+    text-decoration: underline rgb(241, 1, 41);
+}
+
+.japs h3 {
+    text-align: center;
+    color: red;
+    text-decoration: underline blue;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+.pictures {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pictures img {
+    width: 30%;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    background: url();
+}
+
+
+.carousel {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    animation: slide 15s infinite;
+}
+
+.slides img {
+    width: 20%;
+    height: auto;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
+    25% { transform: translateX(-20%); }
+    45% { transform: translateX(-20%); }
+    50% { transform: translateX(-40%); }
+    70% { transform: translateX(-40%); }
+    75% { transform: translateX(-60%); }
+    95% { transform: translateX(-60%); }
+    100% { transform: translateX(-80%); }
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    clear: both;
+    
+
+}
